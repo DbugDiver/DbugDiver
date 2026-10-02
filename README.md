@@ -14,13 +14,14 @@ I build production software and the systems where software meets the physical wo
 | **[Aptly](https://github.com/DbugDiver/aptly-architecture)** · *founder, [aptlycareers.com](https://aptlycareers.com)* | AI resume tailoring that edits the user's real `.docx` in place: Next.js, FastAPI, Supabase Postgres with forced RLS, Anthropic API, Stripe. The backend, not the model, decides what gets written, and the finished document is verified before export. 278 tests. |
 | **[Marine Autonomy](https://birparkash.vercel.app/portfolio/marine-autonomy)** · *professional, code proprietary* | Station-keeping and waypoint navigation for autonomous surface vessels: ArduPilot/Pixhawk, MAVLink, Mission Planner, SITL, Jetson, GPS/IMU/vision integration and field testing. |
 | **[Ball-Balancing Robot](https://github.com/DbugDiver/ball-balancing-robot)** | A 3-RRS parallel manipulator on Moteus brushless actuators: closed-form inverse kinematics, a 60 FPS OpenCV tracking thread, and async PD control. |
+| **[Marine Vision Tracking](https://github.com/DbugDiver/marine-vision-tracking)** | Tracks boats in open-water video with YOLO11, SAM2 and CoTracker3. Stable IDs at about 40 FPS by re-detecting only every 48 frames and carrying tracked points across detection gaps. |
 
 #### What I work on
 
 - **Production software:** full-stack TypeScript and Python services, data pipelines on AWS, testing and CI.
 - **Robotics & autonomy:** ArduPilot/PX4, MAVLink, ROS 2, SITL and Gazebo, real-time control, sensor fusion.
 - **Compilers & systems:** C++, ANTLR4, MLIR/LLVM. Gazprea and VCalc compilers are in progress, with [write-ups on my portfolio](https://birparkash.vercel.app/portfolio). The coursework code stays private.
-- **AI & perception:** OpenCV, visual servoing, reinforcement learning (Stable-Baselines3, MuJoCo), LLM-backed products.
+- **AI & perception:** object tracking (YOLO, SAM2, CoTracker3), OpenCV, visual servoing, reinforcement learning (Stable-Baselines3, MuJoCo), LLM-backed products.
 
 #### Stack
 
